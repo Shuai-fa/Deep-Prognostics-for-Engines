@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+
+# Environment files
+.env
+venv/
+env/
+
+# === Project Specific Files ===
+
+# 1. Data Files
+# We shouldn't commit data to the repo. 
+# The README will instruct users to download it themselves.
+*.txt
+
+# 2. Trained Model
+# This is an output of the training script, not source code.
+*.pth
+
+# 3. OS-specific files
+.DS_Store

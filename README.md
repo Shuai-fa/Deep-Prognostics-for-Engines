@@ -49,7 +49,10 @@ The plot above shows a clear positive correlation between the predicted RUL (red
     ```
 
 4.  **Download Data**
-    Download the C-MAPSS dataset from a source like [Kaggle](https://www.kaggle.com/datasets/behrad3d/nasa-cmaps-dataset) and place the `.txt` files (e.g., `train_FD001.txt`, `test_FD001.txt`, `RUL_FD001.txt`) in the root directory of this project.
+    Download the C-MAPSS dataset from a source like [Kaggle](https://www.kaggle.com/datasets/behrad3d/nasa-cmaps-dataset). After unzipping, place the following files into the root directory of this project:
+    * `train_FD001.txt`
+    * `test_FD001.txt`
+    * `RUL_FD001.txt`
 
 5.  **Run the Project**
     ```bash
