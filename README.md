@@ -12,10 +12,10 @@ Based on the publicly available NASA C-MAPSS dataset for turbofan engines, this 
 
 After 100 epochs of training, our LSTM model achieved strong predictive performance on the unseen test set.
 
-* **Root Mean Squared Error (RMSE) on Test Set**: [Please fill in your RMSE score here from the `evaluate_model.py` output]
-* **Prediction Results vs. Ground Truth**:
-    *(Embed your successful results plot here. Make sure the file, e.g., `Figure_1.png`, is in your repository)*
-    ![Prediction Results Plot](Figure_1.png)
+* **Root Mean Squared Error (RMSE) on Test Set**: **16.56**
+* **Prediction Results vs. Ground Truth**: 
+
+   ![Prediction Results Plot](Figure_1.png)
 
 The plot above shows a clear positive correlation between the predicted RUL (red 'x') and the true RUL (blue 'o'), confirming that the model has successfully learned the degradation patterns from the time-series data.
 
